@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ar" dir="rtl" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#138C9F" />
+    <title>طبيبي — سجلك الطبي في جيبك | دراسة حالة</title>
+    <meta
+      name="description"
+      content="بورتفوليو مشروع طبيبي (Tabibi): منصة رقمية متكاملة تساعد أطباء العيادات الخاصة على إدارة المواعيد ومتابعة السجلات الطبية والوصفات الرقمية في مكان واحد — منصة ويب وتطبيق موبايل مع سجل طبي برمز QR وتوثيق ذكي بالذكاء الاصطناعي."
+    />
+    <link rel="canonical" href="https://tabibi-portfolio.vercel.app/" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Tabibi Portfolio" />
+    <meta property="og:title" content="طبيبي — سجلك الطبي في جيبك | دراسة حالة" />
+    <meta
+      property="og:description"
+      content="منصة رقمية متكاملة لإدارة المواعيد والسجلات الطبية والوصفات الرقمية: ويب + موبايل، سجل برمز QR، وتوثيق ذكي بالذكاء الاصطناعي."
+    />
+    <meta property="og:url" content="https://tabibi-portfolio.vercel.app/" />
+    <meta property="og:image" content="https://tabibi-portfolio.vercel.app/images/cover.jpg" />
+    <meta property="og:locale" content="ar_PS" />
+    <meta property="og:locale:alternate" content="en_US" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="طبيبي — سجلك الطبي في جيبك | دراسة حالة" />
+    <meta
+      name="twitter:description"
+      content="منصة رقمية متكاملة لإدارة المواعيد والسجلات الطبية والوصفات الرقمية: ويب + موبايل، سجل برمز QR، وتوثيق ذكي بالذكاء الاصطناعي."
+    />
+    <meta name="twitter:image" content="https://tabibi-portfolio.vercel.app/images/cover.jpg" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('tabibi-theme');
+          var dark =
+            saved === 'dark' ||
+            (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches);
+          document.documentElement.setAttribute('data-theme', dark ? 'dark' : 'light');
+          var lang = localStorage.getItem('tabibi-lang');
+          if (lang === 'en') {
+            document.documentElement.setAttribute('lang', 'en');
+            document.documentElement.setAttribute('dir', 'ltr');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <noscript>
+      This portfolio requires JavaScript. / يتطلب هذا الموقع تفعيل الجافاسكربت.
+    </noscript>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>

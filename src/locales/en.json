@@ -1,0 +1,331 @@
+{
+  "meta": {
+    "title": "Tabibi — Your Medical Record in Your Pocket | Case Study",
+    "description": "Tabibi portfolio: a complete digital platform that helps private clinic doctors manage appointments, medical records and digital prescriptions in one place — a web platform and a mobile app with a QR medical record and AI-powered documentation."
+  },
+  "nav": {
+    "problem": "Problem",
+    "solution": "Solution",
+    "features": "Features",
+    "ai": "AI",
+    "tech": "Tech",
+    "team": "Team",
+    "contact": "Contact",
+    "menu": "Menu",
+    "close": "Close"
+  },
+  "ui": {
+    "lang": "العربية",
+    "langShort": "ع",
+    "themeLight": "Switch to light mode",
+    "themeDark": "Switch to dark mode",
+    "backTop": "Back to top",
+    "placeholder": "Placeholder"
+  },
+  "hero": {
+    "eyebrow": "Case study — a digital health platform from Gaza",
+    "lead": "Tabibi —",
+    "highlight": "your medical record",
+    "tail": "in your pocket",
+    "desc1": "A complete digital platform that helps private clinic doctors manage appointments, medical records and digital prescriptions in one place.",
+    "desc2": "Available as a web platform and a mobile app, with a record that follows the patient everywhere via a QR code, and smart documentation that turns the doctor's voice notes into a structured record.",
+    "ctaLive": "Try the platform",
+    "ctaPresent": "Watch the presentation",
+    "mockAlt": "Tabibi platform dashboard",
+    "note": "No demo account is available right now."
+  },
+  "stats": [
+    { "value": "4", "label": "Roles and portals" },
+    { "value": "2", "label": "Languages: Arabic & English" },
+    { "value": "Web + Mobile", "label": "Web platform and mobile app" },
+    { "value": "QR + AI", "label": "QR medical record and smart documentation" }
+  ],
+  "problem": {
+    "eyebrow": "Problem",
+    "title": "A scattered medical history — decisions made without context",
+    "storyTitle": "Mohammed's story",
+    "story": "Mohammed, a heart patient, visited a private clinic doctor without owning a unified medical record. The doctor had no background on his chronic conditions, allergies or medications — putting his life at risk and forcing him to repeat tests that could have been avoided.",
+    "cards": [
+      {
+        "title": "No unified record",
+        "text": "Patients move between doctors and specialties without a single medical record that follows them."
+      },
+      {
+        "title": "Unsafe decisions",
+        "text": "Missing medical history, allergies and medications can expose the patient to an unsafe medical decision."
+      },
+      {
+        "title": "Costly repeat tests",
+        "text": "Without a record, patients are forced to repeat tests and prescriptions that could have been avoided."
+      }
+    ]
+  },
+  "solution": {
+    "eyebrow": "Solution",
+    "lead": "One",
+    "highlight": "platform",
+    "tail": "connecting patient, doctor and record",
+    "cards": [
+      {
+        "title": "Medical record via QR",
+        "text": "A private barcode that follows the patient everywhere. The doctor scans it and instantly reaches the medical history, medications and allergies, then adds the new visit to the record."
+      },
+      {
+        "title": "Smart documentation with the AI Agent",
+        "text": "The doctor dictates notes in their own voice, and the AI automatically turns them into structured symptoms, diagnosis, prescription and instructions."
+      },
+      {
+        "title": "Connected to the ecosystem",
+        "text": "An open platform linking the health record with clinics, laboratories, pharmacies and hospitals."
+      }
+    ],
+    "bandTitle": "From scan to record in a single visit",
+    "bandText": "A barcode travels with the patient, a voice documents the visit, AI structures the fields, and the doctor reviews and approves before anything is saved."
+  },
+  "timeline": {
+    "eyebrow": "Doctor's journey",
+    "title": "Five steps from scanning the QR to saving the visit",
+    "desc": "The exact workflow the mobile app runs between patient and doctor.",
+    "steps": [
+      {
+        "title": "Patient shows the code",
+        "text": "The patient shows their QR code from the mobile app — it can even be placed on the back of the phone."
+      },
+      {
+        "title": "Doctor scans it",
+        "text": "The medical record and medical history open for them immediately."
+      },
+      {
+        "title": "Voice note",
+        "text": "The doctor records a voice note: symptoms, diagnosis, clinical observations and the prescription."
+      },
+      {
+        "title": "AI analysis",
+        "text": "The AI Agent analyzes the speech and distributes it into the right fields: symptoms, diagnosis, notes, prescription."
+      },
+      {
+        "title": "Review and save",
+        "text": "The doctor reviews and approves the fields, then the visit is saved and the medical record and history update automatically."
+      }
+    ]
+  },
+  "roles": {
+    "eyebrow": "Portals",
+    "title": "Four portals — permissions on purpose",
+    "desc": "Every role gets its own interface, and permissions are decided page by page.",
+    "tabs": {
+      "admin": {
+        "label": "Admin",
+        "title": "Admin portal — Web",
+        "desc": "A full overview of the platform and its management.",
+        "features": [
+          "Dashboard: total doctors, total patients, today's appointments, total platform revenue",
+          "Chart of appointment statistics (completed / confirmed / cancelled) over the last 7 days",
+          "New doctor join requests",
+          "Users and departments management",
+          "Conversations",
+          "Financial reports",
+          "Payment methods and subscriptions"
+        ],
+        "img": "/images/screens/admin-dashboard.png",
+        "alt": "Admin dashboard"
+      },
+      "doctor": {
+        "label": "Doctor",
+        "title": "Doctor portal — Web",
+        "desc": "A whole working day from one dashboard.",
+        "features": [
+          "Dashboard: today's appointments, completed, pending requests, today's schedule",
+          "Payments waiting for confirmation",
+          "Appointments, working hours and payment methods management",
+          "Patients management",
+          "Conversations",
+          "Subscription",
+          "Secretary management and permission granting",
+          "Password change and financial records"
+        ],
+        "img": "/images/screens/doctor-dashboard.png",
+        "alt": "Doctor dashboard"
+      },
+      "secretary": {
+        "label": "Secretary",
+        "title": "Secretary portal — Web",
+        "desc": "The same interface as the doctor, but permissions are set by the doctor page by page.",
+        "grantedTitle": "Can be granted to the secretary",
+        "granted": [
+          "Appointments management",
+          "Payment methods management",
+          "Financial operations",
+          "Confirming periods and payments"
+        ],
+        "doctorOnlyTitle": "Reserved for the doctor only",
+        "doctorOnly": [
+          "Starting a visit",
+          "The medical record",
+          "The medical history",
+          "Conversations (due to data sensitivity)"
+        ],
+        "img": "/images/screens/doctor-patients.png",
+        "alt": "Patients management in the doctor and secretary portals"
+      },
+      "patient": {
+        "label": "Patient",
+        "title": "Patient portal — Web",
+        "desc": "Their file, visits and transactions in one place.",
+        "features": [
+          "Search doctors, pharmacies, medical centers and laboratories by specialty",
+          "Profile and bookings",
+          "Personal medical record: blood type, blood pressure, blood sugar, height and weight, smoking status, chronic conditions, allergies and current medications — with edit, PDF download and QR code",
+          "Medical history: visits in chronological order, filterable by date and specialty, with PDF export and doctor rating",
+          "My prescriptions: all received prescriptions with filters, preview and PDF download",
+          "Conversations with doctors",
+          "Financial transactions with totals and receipt download",
+          "Favorites and cart, notifications, dark mode, Arabic/English"
+        ],
+        "img": "/images/screens/patient-home.png",
+        "alt": "Patient home page"
+      }
+    }
+  },
+  "gallery": {
+    "eyebrow": "Gallery",
+    "title": "Screens from the platform",
+    "desc": "Web and mobile screenshots — click any image to view it full size.",
+    "view": "View",
+    "close": "Close",
+    "prev": "Previous",
+    "next": "Next",
+    "items": [
+      { "title": "Admin dashboard", "src": "/images/screens/admin-dashboard.png", "type": "web" },
+      { "title": "Users management", "src": "/images/screens/admin-users.png", "type": "web" },
+      { "title": "Doctor dashboard", "src": "/images/screens/doctor-dashboard.png", "type": "web" },
+      { "title": "Start a visit", "src": "/images/screens/doctor-start-visit.png", "type": "web" },
+      { "title": "Patient home page", "src": "/images/screens/patient-home.png", "type": "web" },
+      { "title": "Personal medical record (with QR)", "src": "/images/screens/patient-record.png", "type": "web" },
+      { "title": "QR code for the record", "src": "/images/screens/qr-code.png", "type": "web" },
+      { "title": "Medical history", "src": "/images/screens/patient-history.png", "type": "web", "placeholder": true },
+      { "title": "My prescriptions", "src": "/images/screens/patient-prescriptions.png", "type": "web", "placeholder": true },
+      { "title": "Conversations", "src": "/images/screens/patient-chat.png", "type": "web", "placeholder": true },
+      { "title": "Financial transactions", "src": "/images/screens/patient-payments.png", "type": "web", "placeholder": true },
+      { "title": "Doctors directory", "src": "/images/screens/doctors-directory.png", "type": "web" },
+      { "title": "Patient app — Home", "src": "/images/screens/mobile-home.jpg", "type": "mobile" },
+      { "title": "Patient app — Appointments", "src": "/images/screens/mobile-appointments.jpg", "type": "mobile" },
+      { "title": "Patient app — Record & QR", "src": "/images/screens/mobile-record-qr.jpg", "type": "mobile" }
+    ]
+  },
+  "ai": {
+    "eyebrow": "AI & Security",
+    "title": "A pipeline that starts with a voice and ends with the doctor's review",
+    "desc": "The doctor speaks, the system structures — and nothing is saved before the doctor reviews and approves it.",
+    "pipeline": [
+      { "title": "Voice note", "text": "The doctor records their voice note: symptoms, diagnosis, clinical observations and the prescription." },
+      { "title": "Speech-to-text (STT)", "text": "The audio recording is converted into written text." },
+      { "title": "Strip patient identity", "text": "Name, ID number and phone are removed before any text is sent to the AI." },
+      { "title": "Claude via MCP", "text": "The medical text is analyzed within the context of the visit." },
+      { "title": "Structured JSON", "text": "Symptoms / diagnosis / notes / prescription in clear fields." },
+      { "title": "Doctor review", "text": "The doctor reviews and approves the fields before anything is saved." },
+      { "title": "Save to the record", "text": "The medical record and history update automatically." }
+    ],
+    "sttNote": "We are currently selecting the most accurate speech-to-text engine for the Palestinian dialect.",
+    "securityTitle": "Security & privacy",
+    "securityDesc": "Privacy is not an extra feature — it is a requirement in every step.",
+    "security": [
+      "QR scanning rights are limited to doctors registered and approved on the platform, not any doctor outside it.",
+      "Permissions are separated: the secretary cannot reach the medical record or conversations unless the doctor decides so.",
+      "We strip patient identity: name, ID number and phone are removed before any text is sent to the AI.",
+      "Nothing is saved to the record before the doctor reviews and approves it.",
+      "Voice recordings are not kept after transcription.",
+      "An audit log for every access to a patient's record."
+    ]
+  },
+  "tech": {
+    "eyebrow": "Architecture & stack",
+    "title": "A simplified architecture diagram",
+    "desc": "Web and mobile talk to a single API, a single central record, and an AI layer behind authentication.",
+    "arch": {
+      "web": "Web platform",
+      "webSub": "React 19 · Vite · Tailwind 4",
+      "mobile": "Mobile app",
+      "mobileSub": "Flutter (patient + doctor)",
+      "api": "API",
+      "apiSub": "ASP.NET Core 10 · SignalR · JWT + Google OAuth",
+      "db": "Database",
+      "dbSub": "PostgreSQL",
+      "ai": "AI layer",
+      "aiSub": "Claude via MCP + speech-to-text",
+      "to": "to"
+    },
+    "badges": [
+      "React 19",
+      "Vite",
+      "Tailwind CSS 4",
+      "Framer Motion",
+      "i18next",
+      "lucide-react",
+      "ASP.NET Core 10",
+      "PostgreSQL",
+      "SignalR",
+      "JWT",
+      "Google OAuth",
+      "Flutter",
+      "Claude (MCP)",
+      "Vercel"
+    ]
+  },
+  "decisions": {
+    "eyebrow": "Engineering decisions & learnings",
+    "title": "Three decisions that shaped the build",
+    "cards": [
+      {
+        "title": "Flexible secretary permissions",
+        "text": "One interface for doctor and secretary, with page-by-page permission control: what is granted to the secretary, and what stays with the doctor only."
+      },
+      {
+        "title": "QR as a secure entry to the record",
+        "text": "We made the QR code the entry point to the medical record, surrounded by protection layers: approved doctors, doctor review before saving, and an audit log for every access."
+      },
+      {
+        "title": "Performance through chunking",
+        "text": "We split the Vite build into independent chunks (react-core, icons, animation, i18n) so they are not all loaded at once."
+      }
+    ]
+  },
+  "roadmap": {
+    "eyebrow": "Roadmap",
+    "title": "What comes next",
+    "items": [
+      "The secretary creates a medical record for a new patient who does not have one yet.",
+      "Improving speech-to-text for the Palestinian dialect.",
+      "Widening the connections with laboratories, pharmacies and hospitals."
+    ]
+  },
+  "team": {
+    "eyebrow": "Team",
+    "title": "The people behind Tabibi",
+    "desc": "Five students bound by one mission: the record should follow the patient.",
+    "members": [
+      { "name": "Mazen Hazem Abu Saif", "nameEn": "Mazen Hazem Abu Saif", "role": "Team Leader + Full-Stack Developer", "photo": "/images/team/mazen.png" },
+      { "name": "Abdallah Al-Manaama", "nameEn": "Abdallah Al-Manaama", "role": "Full-Stack Developer", "photo": "/images/team/abdallah.png" },
+      { "name": "Jaber Abdullah", "nameEn": "Jaber Abdullah", "role": "Backend Developer", "photo": "/images/team/jaber.png" },
+      { "name": "Amin Al-Nawajha", "nameEn": "Amin Al-Nawajha", "role": "Mobile Developer", "photo": "/images/team/amin.png" },
+      { "name": "Basel Mahmoud Jaber", "nameEn": "Basel Mahmoud Jaber", "role": "UI/UX Designer", "photo": "/images/team/basel.png" }
+    ]
+  },
+  "contact": {
+    "eyebrow": "Contact",
+    "title": "Get in touch",
+    "desc": "For questions about the project, collaboration, or to see the platform live.",
+    "ctaLive": "Try the platform",
+    "ctaEmail": "Email us",
+    "ctaGithub": "Source code on GitHub",
+    "ctaLinkedin": "Company page on LinkedIn",
+    "emailLabel": "Email",
+    "note": "No demo account right now — a “Demo account” button can be added later."
+  },
+  "footer": {
+    "brand": "Tabibi — طبيبي",
+    "tagline": "Your medical record in your pocket.",
+    "rights": "© 2026 Tabibi team. Case study for academic showcase.",
+    "links": "Links"
+  }
+}
