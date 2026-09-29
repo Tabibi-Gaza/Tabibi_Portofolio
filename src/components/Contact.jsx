@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { links } from '../data/content.js';
 import Reveal from './Reveal.jsx';
 import SectionHead from './SectionHead.jsx';
+import WhatsAppIcon from './WhatsAppIcon.jsx';
 
 export default function Contact() {
   const { t } = useTranslation();
@@ -36,6 +37,13 @@ export default function Contact() {
       external: false,
       value: links.email,
     },
+    {
+      key: 'ctaWhatsapp',
+      icon: WhatsAppIcon,
+      href: links.whatsapp,
+      external: true,
+      value: '+972 059 708 1983',
+    },
   ];
 
   return (
@@ -52,7 +60,7 @@ export default function Contact() {
           center
         />
 
-        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+        <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-5">
           {cards.map((c, i) => {
             const Icon = c.icon;
             return (
@@ -79,9 +87,6 @@ export default function Contact() {
           })}
         </div>
 
-        <Reveal className="mt-8 text-center">
-          <p className="text-sm font-semibold text-muted">{t('contact.note')}</p>
-        </Reveal>
       </div>
     </section>
   );

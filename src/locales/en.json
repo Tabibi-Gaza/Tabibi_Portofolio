@@ -10,7 +10,7 @@
     "ai": "AI",
     "tech": "Tech",
     "team": "Team",
-    "contact": "Contact",
+    "contact": "Contact us",
     "menu": "Menu",
     "close": "Close"
   },
@@ -31,8 +31,7 @@
     "desc2": "Available as a web platform and a mobile app, with a record that follows the patient everywhere via a QR code, and smart documentation that turns the doctor's voice notes into a structured record.",
     "ctaLive": "Try the platform",
     "ctaPresent": "Watch the presentation",
-    "mockAlt": "Tabibi platform dashboard",
-    "note": "No demo account is available right now."
+    "mockAlt": "Tabibi platform dashboard"
   },
   "stats": [
     { "value": "4", "label": "Roles and portals" },
@@ -294,14 +293,14 @@
     "eyebrow": "Roadmap",
     "title": "What comes next",
     "items": [
-      "The secretary creates a medical record for a new patient who does not have one yet.",
-      "Improving speech-to-text for the Palestinian dialect.",
+      "SMS reminders for appointments.",
+      "Improve speech-to-text transcription for all languages.",
       "Widening the connections with laboratories, pharmacies and hospitals."
     ]
   },
   "team": {
     "eyebrow": "Team",
-    "title": "The people behind Tabibi",
+    "title": "Tabibi's Stars",
     "desc": "Five students bound by one mission: the record should follow the patient.",
     "members": [
       { "name": "Mazen Hazem Abu Saif", "nameEn": "Mazen Hazem Abu Saif", "role": "Team Leader + Full-Stack Developer", "photo": "/images/team/mazen.png" },
@@ -313,19 +312,20 @@
   },
   "contact": {
     "eyebrow": "Contact",
-    "title": "Get in touch",
+    "title": "Contact us",
     "desc": "For questions about the project, collaboration, or to see the platform live.",
     "ctaLive": "Try the platform",
     "ctaEmail": "Email us",
-    "ctaGithub": "Source code on GitHub",
+    "ctaGithub": "Contact us on GitHub",
     "ctaLinkedin": "Company page on LinkedIn",
-    "emailLabel": "Email",
-    "note": "No demo account right now — a “Demo account” button can be added later."
+    "ctaWhatsapp": "Contact us on WhatsApp",
+    "emailLabel": "Email"
   },
   "footer": {
     "brand": "Tabibi — طبيبي",
     "tagline": "Your medical record in your pocket.",
-    "rights": "© 2026 Tabibi team. Case study for academic showcase.",
-    "links": "Links"
+    "rights": "All rights reserved to Tabibi 2026",
+    "links": "Links",
+    "socialLinks": "Social media links"
   }
 }

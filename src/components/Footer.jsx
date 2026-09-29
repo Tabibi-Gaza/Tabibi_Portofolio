@@ -1,6 +1,7 @@
-import { ArrowUp, Code2, Mail } from 'lucide-react';
+import { ArrowUp, Code2, Instagram, Linkedin, Mail } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { links, sections } from '../data/content.js';
+import WhatsAppIcon from './WhatsAppIcon.jsx';
 
 export default function Footer() {
   const { t } = useTranslation();
@@ -21,6 +22,38 @@ export default function Footer() {
             <p className="mt-4 text-xs leading-relaxed" style={{ color: 'var(--band-muted)' }}>
               {t('footer.rights')} {year > 2026 ? `· ${year}` : ''}
             </p>
+            <div className="mt-4 flex items-center gap-4" aria-label={t('footer.socialLinks')}>
+              <a
+                href="https://www.instagram.com/tabibi_gaza/"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Instagram"
+                className="transition-colors hover:text-primary"
+                style={{ color: 'var(--band-muted)' }}
+              >
+                <Instagram size={19} aria-hidden="true" />
+              </a>
+              <a
+                href={links.whatsapp}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="WhatsApp"
+                className="transition-colors hover:text-primary"
+                style={{ color: 'var(--band-muted)' }}
+              >
+                <WhatsAppIcon size={19} />
+              </a>
+              <a
+                href={links.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="LinkedIn"
+                className="transition-colors hover:text-primary"
+                style={{ color: 'var(--band-muted)' }}
+              >
+                <Linkedin size={19} aria-hidden="true" />
+              </a>
+            </div>
           </div>
 
           <nav aria-label={t('footer.links')}>

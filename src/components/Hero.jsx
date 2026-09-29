@@ -59,7 +59,6 @@ export default function Hero() {
             {/* TODO: show a “Demo account” button here if demoAccount is defined later. */}
           </div>
 
-          <p className="mt-4 text-sm font-semibold text-muted">{t('hero.note')}</p>
         </Reveal>
 
         <Reveal delay={0.15}>

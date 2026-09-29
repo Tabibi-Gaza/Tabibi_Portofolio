@@ -8,6 +8,7 @@ export const links = {
   presentation: '', // TODO: add later, once the presentation is deployed to Vercel
   github: 'https://github.com/Mazen-seif21',
   linkedin: 'https://www.linkedin.com/company/tabibi-gaza/',
+  whatsapp: 'https://wa.me/972597081983',
   email: 'mazan.seifppp@gmail.com',
   repo: 'https://github.com/Tabibi-Gaza/Tabibi_Portofolio',
 };
