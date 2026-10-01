@@ -292,10 +292,16 @@
   "roadmap": {
     "eyebrow": "Roadmap",
     "title": "What do we need now?",
+    "closingLead": "Tabibi: From ",
+    "closingHighlight": "paper records",
+    "closingTail": " to organized digital healthcare.",
     "items": [
-      "SMS reminders for appointments",
-      "Improve speech-to-text transcription for all languages",
-      "Expand integrations with laboratories, pharmacies and hospitals"
+      { "title": "Digital payment partnerships", "text": "Integrate real payment gateways such as Stripe." },
+      { "title": "Connect prescriptions to pharmacies", "text": "Send digital prescriptions directly to a partner pharmacy." },
+      { "title": "Laboratory results", "text": "Upload and display lab results linked to the patient's record." },
+      { "title": "Improve speech-to-text for all languages", "text": "Support accurate transcription across multiple languages." },
+      { "title": "SMS reminders", "text": "Make sure every patient receives appointment reminders and reduce no-shows." },
+      { "title": "Add pharmacies and laboratories", "text": "Expand the platform to include new partners." }
     ]
   },
   "team": {
