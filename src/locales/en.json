@@ -214,8 +214,8 @@
   },
   "ai": {
     "eyebrow": "AI & Security",
-    "title": "A pipeline that starts with a voice and ends with the doctor's review",
-    "desc": "The doctor speaks, the system structures — and nothing is saved before the doctor reviews and approves it.",
+    "title": "Smart medical documentation, from voice to doctor approval",
+    "desc": "The system turns the doctor's notes into structured fields, and nothing is saved before review and approval.",
     "pipeline": [
       { "title": "Voice note", "text": "The doctor records their voice note: symptoms, diagnosis, clinical observations and the prescription." },
       { "title": "Speech-to-text (STT)", "text": "The audio recording is converted into written text." },
@@ -225,7 +225,7 @@
       { "title": "Doctor review", "text": "The doctor reviews and approves the fields before anything is saved." },
       { "title": "Save to the record", "text": "The medical record and history update automatically." }
     ],
-    "sttNote": "We are currently selecting the most accurate speech-to-text engine for the Palestinian dialect.",
+    "sttNote": "We are currently selecting an accurate speech-to-text engine that supports multiple languages.",
     "securityTitle": "Security & privacy",
     "securityDesc": "Privacy is not an extra feature — it is a requirement in every step.",
     "security": [
@@ -293,9 +293,9 @@
     "eyebrow": "Roadmap",
     "title": "What comes next",
     "items": [
-      "SMS reminders for appointments.",
-      "Improve speech-to-text transcription for all languages.",
-      "Widening the connections with laboratories, pharmacies and hospitals."
+      "SMS reminders for appointments",
+      "Improve speech-to-text transcription for all languages",
+      "Expand integrations with laboratories, pharmacies and hospitals"
     ]
   },
   "team": {

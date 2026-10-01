@@ -64,9 +64,9 @@ export default function Contact() {
           {cards.map((c, i) => {
             const Icon = c.icon;
             return (
-              <Reveal key={c.key} delay={i * 0.07}>
+              <Reveal key={c.key} delay={i * 0.07} className="min-w-0">
                 <a
-                  className="card card-hover flex h-full flex-col items-start gap-3 p-6"
+                  className="card card-hover flex h-full min-w-0 flex-col items-start gap-3 overflow-hidden p-6"
                   href={c.href}
                   target={c.external ? '_blank' : undefined}
                   rel={c.external ? 'noopener noreferrer' : undefined}
@@ -78,7 +78,7 @@ export default function Contact() {
                     <Icon size={20} style={{ color: 'var(--primary)' }} />
                   </span>
                   <span className="font-extrabold">{t(`contact.${c.key}`)}</span>
-                  <span className="truncate text-sm font-semibold text-muted" dir="ltr">
+                  <span className="block w-full min-w-0 break-all text-sm font-semibold text-muted" dir="ltr">
                     {c.value}
                   </span>
                 </a>
